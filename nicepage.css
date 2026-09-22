@@ -45711,19 +45711,21 @@ a.u-link.u-text-hover-color-var.hover {
   .u-header .u-image-1 {
     width: 264px;
   }
-
-  .u-header .u-logo-image-1 {
-    max-width: 64px;
-    max-height: 64px;
-  }
 }
 
-@media (max-width: 767px) {
+
+@media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 97px;
+  }
+
   .u-header .u-image-1 {
-    width: auto;
+    width: 185px;
+    height: 59px;
+    margin-top: 19px;
+    margin-bottom: 19px;
   }
 }
-
  .u-footer {
   background-image: none;
 }
